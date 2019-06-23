@@ -1,13 +1,13 @@
-       h1{
+         h1{
             text-align: center;
-            font-size:30pt;
+            font-size:70px;
             color: #e2dfdf;
             text-shadow: 2px 2px 2px black; 
         }
         
         h3{
             text-align: center;
-            font-size: 40pt;
+            font-size: 40px;
             color: black;
 
             }
@@ -20,7 +20,7 @@
             text-align: center;
             width: 470px;
             border-spacing: 500px;
-                font-size:14xp;
+                font-size:14px;
                 height: 6%;
                  text-transform: uppercase;
                  font-weight:700;
@@ -36,7 +36,7 @@
         }
         
              button.buttons:hover{
-                 font-size:14xp;
+                 font-size:14px;
                  text-transform: uppercase;
                  font-weight:700;
                  border:none;
@@ -48,7 +48,7 @@
              }
         
              button.buttons:active{
-                 font-size:14xp;
+                 font-size:14px;
                  text-transform: uppercase;
                  font-weight:700;
                  border:none;
@@ -67,4 +67,7 @@
                 text-align: center;
             }
 
+           
+            
+            
           
