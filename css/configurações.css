@@ -1,71 +1,76 @@
-        h1{
-            text-align: center;
-            font-size:70px;
-            color: #e2dfdf;
-            text-shadow: 2px 2px 2px black; 
-        }
-        
-        h3{
-            text-align: center;
-            font-size: 40px;
-            color: black;
-            }
-        
-        body{
-            
-            background-color: #58af9b
-        }
-        button.buttons{
-            text-align: center;
-            width: 470px;
-            border-spacing: 500px;
-                font-size:14px;
-                height: 6%;
-                 text-transform: uppercase;
-                 font-weight:700;
-                 border:none;
-                 padding: 10px;
-                 cursor:pointer;
-                 background: rgb(211, 208, 208);
-                 color: black;
-                 box-shadow:0 5px 0 #808685 ;
-                 margin: 5px;
-                 position: relative;
-                 left:440px;
-        }
-        
-             button.buttons:hover{
-                 font-size:14px;
-                 text-transform: uppercase;
-                 font-weight:700;
-                 border:none;
-                 padding: 10px;
-                 cursor:pointer;
-                 background: rgb(211, 208, 208); ;
-                 color:black;
-                 box-shadow:0 5px 0 #808685 ;
-             }
-        
-             button.buttons:active{
-                 font-size:14px;
-                 text-transform: uppercase;
-                 font-weight:700;
-                 border:none;
-                 padding: 10px;
-                 cursor:pointer;
-                 position: relative;
-                 top:5px;
-                 box-shadow:none;
-             }
-             
-             input:nth-last-child(1){ 
-                margin: 5;
-             }
+h1{
+    text-align: center;
+    font-size:70px;
+    color: #e2dfdf;
+    text-shadow: 2px 2px 2px black; 
+}
 
-            container-sessoes-index {
-                text-align: center;
-            }
+ h3{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 0px 5px 5px;
+        color:black;
+    
+    }
 
-           
-            
-            
+ body{
+
+     background: url("configurações.png");
+     background-size: 100%;
+}
+button.buttons{
+    text-align: center;
+    width: 470px;
+    border-spacing: 500px;
+        font-size:14px;
+        height: 6%;
+         text-transform: uppercase;
+         font-weight:700;
+         border:none;
+         padding: 10px;
+         cursor:pointer;
+         background: rgb(211, 208, 208);
+         color: black;
+         box-shadow:0 5px 0 #808685 ;
+         margin: 5px;
+         position: relative;
+         left:440px;
+}
+
+      button.buttons:hover{
+         font-size:14px;
+         text-transform: uppercase;
+         font-weight:700;
+         border:none;
+         padding: 10px;
+         cursor:pointer;
+         background: rgb(211, 208, 208); ;
+         color:black;
+         box-shadow:0 5px 0 #808685 ;
+     }
+
+      button.buttons:active{
+         font-size:14px;
+         text-transform: uppercase;
+         font-weight:700;
+         border:none;
+         padding: 10px;
+         cursor:pointer;
+         position: relative;
+         top:5px;
+         box-shadow:none;
+     }
+
+      input:nth-last-child(1){ 
+        margin: 5;
+     }
+
+     .container-sessoes-index {
+        text-align: center;
+    }
