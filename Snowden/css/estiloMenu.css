@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;   
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px 5px 5px;
+    color: white;
+
+}
+ul{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+}
+a:hover{
+    background-color:#58af9b;
+    color: black;
+    
+}
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;   
+}
+body{
+    font-family:  Arial;
+    background:  url("imagens/willy.png");
+    background-size: 100%;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 40px;
+}
+input[type = "checkbox"]{
+    display: none;
+}
+input[type = "checkbox"]:checked ~ nav{
+transform: translateX(350px);
+}
+nav{
+    background-color: rgba(16,16,16,.5);
+    left: -350px;
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    transition: all .5s;
+}

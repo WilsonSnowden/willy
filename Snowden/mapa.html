@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang  ="pt-br">
+    <head>  
+            <meta charset="utf-8">
+            
+            <link rel="stylesheet"  href="css/estiloMapa.css">
+            <title>Mapa do Posto</title>
+    </head>
+    <body>
+         <div class="pac-card" id="pac-card">
+             <div>
+                  <div ><img class ="logo" src= 'css/imagens/willyLogo.png'><a href = "menu.html"><button>voltar</button><a/></div>
+				  <hr>
+                  <div id="type-selector" class="pac-controls">           
+                  <input type="radio" name="type" id="changetype-address"  checked="checked" hidden="true" >
+                  <label for="changetype-address style=text-align:center">Digite seu endereço e veja o posto de gasolina mais próximo:</label></div>
+             </div>
+             <div id="pac-container">
+                 <input id="pac-input" type="text" placeholder="Digite seu endereço">
+             </div>
+         </div>
+         <div id="map"></div>
+         <div id="infowindow-content">
+             <img src="" width="16" height="16" id="place-icon">
+             <span id="place-name"  class="title"></span><br>
+             <span id="place-address"></span>
+         </div>
+         <script src="js/scriptMapa.js"></script>       
+         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtb4q5pVRGPGc1MwGoXg5t0eqzZpR4774&libraries=places&callback=initMap"
+         async defer></script>     
+    </body>
+</html>
