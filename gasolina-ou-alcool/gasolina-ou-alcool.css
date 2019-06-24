@@ -1,0 +1,36 @@
+.buttons{
+    font-size:10xp;
+    height: 7%;
+     text-transform: uppercase;
+     font-weight:400;
+     border:none;
+     padding: 6px;
+     cursor:pointer;
+     background:rgb(40, 40, 177);
+     color:#fff;
+     box-shadow:0 5px 0 #120a8f ;
+}
+
+ .buttons:hover{
+     font-size:14xp;
+     text-transform: uppercase;
+     font-weight:400;
+     border:none;
+     padding: 6px;
+     cursor:pointer;
+     background:#120a8f ;
+     color:#fff;
+     box-shadow:0 5px 0 #0000cc;
+ }
+
+ .buttons:active{
+     font-size:14xp;
+     text-transform: uppercase;
+     font-weight:400;
+     border:none;
+     padding: 6px;
+     cursor:pointer;
+     position: relative;
+     top:5px;
+     box-shadow:none;
+ }
